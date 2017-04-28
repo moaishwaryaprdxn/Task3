@@ -1,5 +1,6 @@
 /* CSS styling for STRICT */
 
+
 html
 {
   font-family: sans-serif; 
@@ -28,7 +29,6 @@ body
 	text-decoration: none;
 	float: middle;
 }
-
 
 /*Header*/
 header
@@ -62,6 +62,7 @@ h1 a
 	color: blue;
 }
 /*End Header*/
+
 
 /*first_content*/
 .banner
@@ -353,3 +354,58 @@ textarea {
   resize: none;
 }
 /*End fourth_content*/
+
+/*Footer*/
+footer 
+{ 
+  padding: 30px 0;
+}
+
+footer .copyrights 
+{
+  margin-top: 15px;
+  display: inline-block;
+  color: #7b7e82;
+}
+
+footer .social-link 
+{
+ 
+  float: right;
+}
+
+.social-link li:nth-child(1) {
+    margin-left: 0;
+}
+
+.social-link li 
+{
+  padding: 15px 20px;
+  border-radius: 3px;
+  margin-left: 10px;
+  background: #15a4fa;
+  float: left;
+  list-style-type: none;
+  }
+
+.social-link li a 
+{
+  display: inline-block;
+}
+
+.social-link li a 
+{
+  text-decoration: none;
+}
+
+.fa-facebook, .fa-twitter, .fa-google-plus, .fa-linkedin 
+{
+  color: #fff
+}
+
+{
+  clear:both;
+}
+
+
+/*End Footer*/
