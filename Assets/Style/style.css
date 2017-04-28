@@ -62,3 +62,294 @@ h1 a
 	color: blue;
 }
 /*End Header*/
+
+/*first_content*/
+.banner
+{
+  padding: 150px 0 50px 0;
+  background: url(../images/task3.jpeg) no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #fff;
+}
+
+main.banner p
+{
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+main .banner .action 
+{
+  padding: 12px 22px;
+  border: 1px solid #279ce5;
+  border-radius: 3px;
+  margin-top: 40px;
+  display: inline-block;
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.dropdown 
+{
+  width: 24px;
+  height: 24px;
+  margin-top: 170px;
+  margin-left: 50%;
+  display: inline-block;
+  display: block;
+  background: url() no-repeat;
+  text-align: center;
+}
+
+.first_content
+{
+  padding: 60px 0 140px 0;
+  text-align: center;
+}
+
+.first_content span
+{
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.button
+{
+  background-color: transparent;
+}
+/*End first_content*/
+
+/*second_content*/
+.second_content h4
+{
+  color: Black;
+}
+
+.second_content p
+{
+  color: Black;
+}
+
+.about-design 
+{
+  padding-bottom: 140px;
+}
+
+.about-design li 
+{
+  width: calc(28% - 5px);
+  padding: 0 0;
+  margin-right: 8%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+
+.about-design li:nth-child(3n) 
+{
+  margin-right: 0;
+}
+
+.about-design li a 
+{
+  text-decoration: none;
+}
+
+.about-design .fa-bullhorn, .about-design .fa-paper-plane-o, .about-design .fa-mobile 
+{
+  padding: 20px 30px;
+  display: inline-block;
+  background-color: #279ce5;
+  color: #fff;
+  font-size: 50px;
+}
+/*End second_content*/
+
+/*third_content*/
+.third_content
+{
+  text-align: center;
+}
+
+.third_content span
+
+{
+  font-family: sans-serif;
+  font-size: 40px;
+  display: block;
+}
+.third_content p 
+{
+  margin-top: 25px;
+  display: inline-block;
+  color: #a9a9a9;
+  font-family: sans-serif;
+}
+
+.work-list 
+{
+  margin: 80px 0px 40px 0px;
+}
+
+.work-list li 
+{
+  width: 100%;
+  margin-bottom: 15px;
+  margin: 0 5% 5% 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.work-list li:nth-child(3n) 
+{
+  margin-right: 0;
+}
+
+.work-list li img 
+{
+    width: 100%;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.work-list li .overlay 
+{
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .7;
+  background-color: #279ce5;
+}
+
+.work-list li .overlay .overlay-content 
+{
+  position: absolute;
+  top: 50%;
+  right: 35%;
+  transform: translateY(-50%);
+}
+
+.work-list li .overlay .overlay-content .border 
+{
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin-left: 15px;
+  display: inline-block;
+  color: #fff;
+}
+
+.work-list li a 
+{
+  text-decoration: none;
+}
+
+.fa-paperclip, .fa-search-plus 
+{
+  color: #fff;
+}
+
+.fa 
+{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+/*end third_content*/
+
+/*fourth_content*/
+.fourth_content
+{
+  padding: 80px 0;
+  background: url(../images/road.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.fourth_content span
+{
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+.fourth_content p
+{
+  margin-top: 15px;
+  display: block;
+  text-align: center;
+  color: #a9a9a9;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+textarea, input[type='email'], input[type='text']
+{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+textarea, input[type='email'], input[type='text'] {
+    
+  padding: 15px 10px 15px 10px;
+  border: 1px solid #999;
+  border-radius: 3px;
+
+  margin: 15px auto 0 auto;
+  background-color: transparent;
+  color: #fff;
+  }
+
+input[type='submit'] 
+{
+  padding: 12px 50px;
+  border: 1px solid #15a4fa;
+  border-radius: 3px;
+  margin-top: 15px;
+  background-color: transparent;
+  color: #fff;
+  }
+
+.img6 
+{ 
+  width: 100%; /* for IE 6 */
+}
+
+Form
+{
+  width: 50%;
+  box-sizing: border-box;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.box 
+{
+  display: block;
+}
+
+textarea, input[type='email'], input[type='text'] 
+{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+textarea {
+  padding-bottom: 80px;
+  color: #fff;
+  resize: none;
+}
+/*End fourth_content*/
